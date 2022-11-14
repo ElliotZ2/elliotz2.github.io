@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="index.js"></script>
+</head>
+<body onload="initialize();">
+    <div id="navbarwrapper">
+        <a href="index.html">HOME</a>
+        <div class="linediv"></div>
+        <a href="draw.html">DRAW</a>
+        <div class="linediv"></div>
+        <a href="gallery.html">GALLERY</a>
+        <div class="linediv"></div>
+        <a href="more.html">MORE</a>
+        <div class="linediv"></div>
+        <div style="padding-left: 200px;"></div>
+        <div id="palettewrapper">
+            <div id="colorsquare1" class="colorsquare"></div>
+            <div id="colorsquare2" class="colorsquare"></div>
+            <div id="colorsquare3" class="colorsquare"></div>
+            <div id="colorsquare4" class="colorsquare"></div>
+            <div id="colorsquare5" class="colorsquare"></div>
+        </div>
+    </div>
+    <div style="width: 100%; height: 2px; background-image:linear-gradient(to right, rgb(255, 43, 43), rgb(137, 94, 215));"></div>
+
+    <div>
+        <h1>Welcome to the color palette picker!</h1>
+    </div>
+
+    <table>
+        <tr><th>Color</th><th>RGB</th><th>HEX</th></tr>
+        <tr><td><input id = "colorinput1" class="colorinput" type="color" onchange="changeColor();"></td><td id="colorrgb1"></td><td id="colorhex1"></td></tr>
+        <tr><td><input id = "colorinput2" class="colorinput" type="color" onchange="changeColor();"></td><td id="colorrgb2"></td><td id="colorhex2"></td></tr>
+        <tr><td><input id = "colorinput3" class="colorinput" type="color" onchange="changeColor();"></td><td id="colorrgb3"></td><td id="colorhex3"></td></tr>
+        <tr><td><input id = "colorinput4" class="colorinput" type="color" onchange="changeColor();"></td><td id="colorrgb4"></td><td id="colorhex4"></td></tr>
+        <tr><td><input id = "colorinput5" class="colorinput" type="color" onchange="changeColor();"></td><td id="colorrgb5"></td><td id="colorhex5"></td></tr>
+    </table>
+
+    <p>
+        You can use this website to choose 5 different colors and see how good they would look like when used together.
+        For example, you can try using this to find nice color themes for your website CSS or for any form of art that involves choosing colors.
+    </p>
+    <p>
+        Start by Clicking on a color input tile under the "color" table column and choose a new color.
+        Then you can see the RGB and hexadecimal values of each color as you change them to make it easier to actually use those colors.
+        If you're finished selecting your colors, why not test them out on the "draw" page where you can use your colors to create some basic pixel art.
+        Alternatively, you can check out the gallery to see how your colors look like next to each other after they have been applied as a filter to random images.
+    </p>
+</body>
+</html>
