@@ -45,3 +45,8 @@ p{
     flex-direction: column;
     height: 500px;
 }
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+}

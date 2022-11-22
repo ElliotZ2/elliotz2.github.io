@@ -50,3 +50,7 @@
     transform: translateY(-101%) ;
     border-radius: 10px;
 }
+
+body{
+    text-align: center;
+}
