@@ -74,3 +74,29 @@ p{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+#divider{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+    align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+    #canvaswrapper{
+        flex-direction: column;
+    }
+    #canvas{
+        align-self: center;
+    }
+    #toolbar{
+        align-self: center;
+        height: 100px;
+        width: 700px;
+        flex-direction: row;
+    }
+    #divider{
+        height: 80px;
+        width: 2px;
+    }
+}
