@@ -79,3 +79,10 @@ p{
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
+.linediv2{
+    height: 1px;
+    width: 5%;
+    background-image:linear-gradient(to right, rgb(110, 95, 95), rgb(122, 125, 170));
+    margin-left: 10%;
+}
+
