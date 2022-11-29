@@ -11,7 +11,8 @@ body{
     padding: 0px;
     margin: 0px;
     width: 100%;
-    background-color:aliceblue;
+    background: aliceblue;
+    background: linear-gradient(90deg, rgba(109,120,149,1) 0%, aliceblue 10%, aliceblue 90%, rgba(109,120,149,1) 100%);
 }
 
 .heading{

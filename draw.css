@@ -51,7 +51,7 @@
 body{
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: #2d383c;
+    background-color: #1a2225;
 }
 
 h1, p{
@@ -99,4 +99,15 @@ p{
         height: 80px;
         width: 2px;
     }
+}
+
+#audiowrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #98d1e6;
 }

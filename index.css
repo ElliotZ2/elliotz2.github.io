@@ -27,7 +27,8 @@
 
 body{
     margin: 0px;
-    background-color:#2d383c;
+    background: rgb(42,40,57);
+    background: linear-gradient(0deg, rgb(31, 29, 44) 0%, rgba(2,0,36,1) 100%);
 }
 
 table{
