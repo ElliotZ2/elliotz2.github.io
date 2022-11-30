@@ -12,6 +12,7 @@ function changeColor(){
         let colorHexElement = document.getElementById("colorhex"+i);
         let colorSquareElement = document.getElementById("colorsquare"+i);
         let hexValue = colorInputElement.value;
+        colorInputElement.style.backgroundColor = hexValue
         colorRgbElement.innerHTML = hexToRGB(hexValue);
         colorHexElement.innerHTML = hexValue;
         colorSquareElement.style.backgroundColor = hexValue;
